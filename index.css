@@ -1,0 +1,160 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ 
+ :focus,
+ :active {
+   outline: none;
+ }
+ a:focus,
+ a:active {
+   outline: none;
+ }
+ 
+ 
+ nav,
+ footer,
+ header,
+ aside {
+   display: block;
+ }
+ 
+ 
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+ }
+ 
+ 
+ input,
+ button,
+ textarea {
+   font-family: inherit;
+ }
+ 
+ 
+ input::-ms-clear {
+   display: none;
+ }
+ button {
+   cursor: pointer;
+ }
+ button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+ }
+ a,
+ a:visited {
+   text-decoration: none;
+ }
+ a:hover {
+   text-decoration: none;
+ }
+ ul li {
+   list-style: none;
+ }
+ img {
+   vertical-align: top;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-size: inherit;
+   font-weight: 400;
+ }
+ 
+
+ 
+
+
+body{
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   size: 18px;
+}
+
+.content h1{
+ font-size: 36px;  
+ text-align: center;
+ margin: 129px auto 141px;
+}
+
+.fields{
+   width: 375px;
+   margin: 0 auto;
+}
+
+.form-row{
+   display: flex;
+   justify-content: space-between;
+}
+
+.label{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   margin-top: 10px;
+}
+.form-row__country{
+   margin-bottom: 136px;
+}
+
+.form-row__name, .form-row__surname{
+   margin-bottom: 53px;
+}
+
+.form-row__lastname{
+   margin-bottom: 48px;
+}
+.form-row__add{
+   margin-bottom: 44px;
+}
+
+.form-row input, .fields___country{
+   width: 207px;
+   height: 44px;
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+
+.fields___country{
+   text-align: center;
+}
+.fields__plus{
+   background-image: url(./Vector.svg);
+   background-repeat: no-repeat;
+   text-align: center;
+   background-position: center center;
+   margin-bottom: 52px;
+}
+
+.fields__submit button{
+   background: #C4C4C4;
+   border-radius: 5px;
+   margin-bottom: 170px;
+   width: 375px;
+   height: 44px;
+   font-size: 18px;
+}
