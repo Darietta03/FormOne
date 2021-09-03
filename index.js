@@ -8,3 +8,4 @@ if (chooseCountry.getAttribute('USA')) {
    lastname.style.display = 'none';
 }
 
+.
