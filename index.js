@@ -1,11 +1,15 @@
-const chooseCountry = document.querySelector('.label__country');
+const chooseCountry = document.querySelector('.fields___country');
 const lastname = document.querySelector('.form-row__lastname');
 console.log(chooseCountry);
 
 
 
-if (chooseCountry.getAttribute('USA')) {
-   lastname.style.display = 'none';
+chooseCountry.onchange = function () {
+   const lastname = document.getElementById('userlastname');
+
+   if (chooseCountry.onclick = document.getElementById('fields___countryusa')) {
+      lastname.style.display = 'none';
+   }
 }
 
-.
+
